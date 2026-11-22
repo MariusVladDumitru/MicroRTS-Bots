@@ -4,4 +4,4 @@
 config-repo.sh github.com
 
 # .githooks contain all git hooks
-#git config core.hooksPath .githooks
+git config core.hooksPath .githooks

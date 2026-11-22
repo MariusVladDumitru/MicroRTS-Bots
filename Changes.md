@@ -8,3 +8,8 @@
   - tests/empty.txt
   - manager/empty.txt
   - agents/empty.txt
+
+# 2026-11-22
+- The path ~/Builds/MicroRTS will always be used as working directory(the current working directory).
+- In Pycharm or if running manually, always use ~/Builds/MicroRTS as the working directory.
+- The install path in ~/Builds/MicroRTS/py. Basically ~/Builds/MicroRTS/py will be a copy of ~/Projects/MicroRTS-Bots/code.

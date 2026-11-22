@@ -1,5 +1,13 @@
-# This file is used to track what python packages are used in the project and their origin(aka if i installed them with pip/conda or if i made them myself in this project)
-
+# Conda environment initial setup setup
+``code
+conda create -n MicroRTS-Bots
+``
+```code
+coda activate MicroRTS-Bots
+```
+```code
+conda install python
+```
 # Installed with conda
 
 # Defined in project(also tell the path)
