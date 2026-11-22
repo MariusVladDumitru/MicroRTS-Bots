@@ -1,4 +1,8 @@
 # Ignore code-examples.
 # code-examples is python source code downloaded from the internet that i use as examples/reference to write my own.
 # I don't want to track this with git.
-code-examples
+code-examples/
+
+# __pycache__ folders
+tests/__pycache__/
+code/__pycache__/
