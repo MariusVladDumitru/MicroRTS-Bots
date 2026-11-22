@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Cpp2Py.iml" filepath="$PROJECT_DIR$/.idea/Cpp2Py.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MicroRTS-Bots.iml" filepath="$PROJECT_DIR$/.idea/MicroRTS-Bots.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gym-microrts.iml" filepath="$PROJECT_DIR$/.idea/gym-microrts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gym-microrts@1.iml" filepath="$PROJECT_DIR$/.idea/gym-microrts@1.iml" />
     </modules>
   </component>
 </project>
