@@ -17,15 +17,25 @@ WORKING_DIR_GOOGLE_COLAB = Path("") # Google colab may need it's own working dir
 # Flags (True/False)
 USE_GOOGLE_COLAB = True
 
-# Addresses
+# Manager spawns an internal server where all instances of MicroRTS and all instances of agents connect to.
+# This means that there can be more that 1 pair MicroRTS-Agents Running.
+# An instance is one pair MicroRTS-Agents
+# There is only one server address -> the internal server of the manager.
+# Minimum number of ports is 2 -> on one port MicroRTS connects, on the other the agents connect.
+# Total Number of ports used by the server = 2 x INSTANCES (how many pairs of MicroRTS-Agents) i have
 
-# Manager has an internal server where MicroRTS and agents connect to.
+# Instances
+# The number of pairs MicroRTS-Agents.
+# Each pair MicroRTS-Agents is unique
+INSTANCES = 1
+
 # Manager local server address
-MANAGER_LOCAL_SERVER_ADDRESS = ""
+SERVER_ADDRESS = ""
 
 # Ports
 
-# Manager local server ports.
-# If more that 1 ports are needed, specify in the list.
-# Probably 1 is enough, but don't know this yet.
-MANAGER_LOCAL_SERVER_PORTS = [""]
+# Ports where instances of MicroRTS are allowed to connect to.
+MICRORTS_SERVER_PORTS=[""]
+
+# Ports where instances of Agents are allowed to connect to.
+AGENTS_SERVER_PORTS=[""]
