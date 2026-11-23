@@ -35,7 +35,7 @@ SERVER_ADDRESS = ""
 # Ports
 
 # Ports where instances of MicroRTS are allowed to connect to.
-MICRORTS_SERVER_PORTS=[""]
+MICRORTS_SERVER_PORTS=[] # list of int's
 
 # Ports where instances of Agents are allowed to connect to.
-AGENTS_SERVER_PORTS=[""]
+AGENTS_SERVER_PORTS=[] # list of int's

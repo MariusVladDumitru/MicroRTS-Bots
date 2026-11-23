@@ -30,8 +30,8 @@ def test_addresses():
     assert SERVER_ADDRESS == SERVER_ADDRESS_CORRECT_VALUE
 
 def test_ports():
-    MICRORTS_SERVER_PORTS_CORRECT_VALUE = [""]
-    AGENTS_SERVER_PORTS_CORRECT_VALUE = [""]
+    MICRORTS_SERVER_PORTS_CORRECT_VALUE = [] # this is a list of int's
+    AGENTS_SERVER_PORTS_CORRECT_VALUE = [] # this is a list of int's
 
     # total number of ports used by the server.
     total_ports = 2 * INSTANCES
