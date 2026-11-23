@@ -6,3 +6,6 @@ code-examples/
 # __pycache__ folders
 tests/__pycache__/
 code/__pycache__/
+
+# pytest cache
+.pytest_cache/

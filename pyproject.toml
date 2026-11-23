@@ -1,2 +1,7 @@
 [tool.pytest.ini_options]
+
+# search for code in these folders
 pythonpath = ["code", "code/manager", "code/agents"]
+
+# search for tests in these folders
+testpaths = ["tests"]
