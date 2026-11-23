@@ -2,7 +2,7 @@
 <module external.system.id="pyproject.toml" type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/code-examples/MicroRTS_Pure_Python/nanobind">
-      <sourceFolder url="file://$MODULE_DIR$/code-examples/MicroRTS_Pure_Python/nanobind/src" />
+      <sourceFolder url="file://$MODULE_DIR$/code-examples/MicroRTS_Pure_Python/nanobind/src" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

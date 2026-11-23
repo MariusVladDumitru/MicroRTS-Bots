@@ -2,5 +2,13 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code-examples/Fall24_Deep_Learning_MicroRTS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code-examples/MicroRTS-Py" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code-examples/MicroRTS_DSL_Python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code-examples/MicroRTS_Pure_Python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code-examples/coac-ai-microrts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code-examples/gym-microrts-paper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code-examples/microrts-ppo-comparison" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code-examples/python-microRTS" vcs="Git" />
   </component>
 </project>

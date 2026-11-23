@@ -2,7 +2,7 @@
 <module external.system.id="pyproject.toml" type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/code-examples/Fall24_Deep_Learning_MicroRTS">
-      <sourceFolder url="file://$MODULE_DIR$/code-examples/Fall24_Deep_Learning_MicroRTS/src" />
+      <sourceFolder url="file://$MODULE_DIR$/code-examples/Fall24_Deep_Learning_MicroRTS/src" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
