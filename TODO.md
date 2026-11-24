@@ -1,4 +1,5 @@
 # Important TODO's are tracked here
 - Specify an IP address and port for the manager's server.
 - Don't forget: you may need to give MicroRTS and it's two agents that pairs with it a unique ID so that it is know who pairs with who.
-In the event that there are multiple instances of MicroRTS and multiple instances of Agents it is mandatory to know who pairs with who and you do this by a UNIQUE ID(maybe unique experiment ID ?????) - Keep this in mind.
+In the event that there are multiple instances of MicroRTS and multiple instances of Agents it is mandatory to know who pairs with who and you do this by a UNIQUE ID(maybe unique experiment ID ?????) - O alta idee si mai puternica decat atribuirea unui ID unic fiecarui client si fiecarui server este folosirea de certificate. Practic serverul are certificatul propriu + fiecare client are certificatul sau/ sau certificatul de client si astfel validezi ca cine se conecteaza la server este cine trebuie/cine se conecteaza la client este cine trebuie -> ca sa nu poti sa falsifice ID-ul.
+E O IDEE FOARTE FOARTE BUNA, MERITA SA FIE EXPLORATA MAI DEPARTE.
