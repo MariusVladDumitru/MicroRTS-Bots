@@ -36,3 +36,8 @@ Deci am asa:
      - Agentii:
 	- Daca Agentii sunt rulati in Google Colab => sunt porniti de catre Manager prin google colab cli.
 	- Daca Agentii sunt rulati pe server propriu(obligatoriu cu GPU) => atunci ei NU SUNT PORNITI De Manager, pentru ca Managerul nu se poate conecta la serverul unde ruleaza agentii. Ei trebuie porniti manual, pe acel server propriu, cu gpu, pe care ruleaza.
+
+- Managerul sa tina evidenta la o structura de date tip tabel:
+- pe randuri: ID_ul experimentului
+- Pe coloane: ID-ul instantei de MicroRTS + ID-ul instantei de Agenti
+Practic o intrare imi spune: pentru experimentul cu ID-ul cutare, trebuie imperecheati instanta de MicroRTS cu ID-ul cutare si instanta de Agenti cu ID-ul cutare.
