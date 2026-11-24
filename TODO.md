@@ -12,3 +12,5 @@ E O IDEE FOARTE FOARTE BUNA, MERITA SA FIE EXPLORATA MAI DEPARTE.
   -> IDEEA DE BAZA: o instanta de MicroRTS se imperecheaza cu o instanta de Agenti.
   -> cand ai mai multe copii de MicroRTS si mai multe copii de Agenti, trebuie sa stii cine se imperecheaza cu cine ca sa poti face legatura/comunicarea intre ele.
   -> Managerul e cel care face imperecherea si trimiterea mesajelor.
+
+- ALTA IDEE BUNA: FIECARE CLIENT CARE SE CONECTEAZA LA SERVER TREBUIE SA ANUNTE(SPUNA) SERVERULUI DACA ESTE MicroRTS SAU AGENTI. TOT IN IDEEA DE MATCHING, SERVERUL TREBUIE SA STIE CA SA CONECTAT MicroRTS SAU CA SA CONECTAT AGENTII. DECI CLIENTUL TREBUIE SA SPUNA SERVERULUI DACA ESTE MicroRTS sau Agentii.
