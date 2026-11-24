@@ -14,3 +14,25 @@ E O IDEE FOARTE FOARTE BUNA, MERITA SA FIE EXPLORATA MAI DEPARTE.
   -> Managerul e cel care face imperecherea si trimiterea mesajelor.
 
 - ALTA IDEE BUNA: FIECARE CLIENT CARE SE CONECTEAZA LA SERVER TREBUIE SA ANUNTE(SPUNA) SERVERULUI DACA ESTE MicroRTS SAU AGENTI. TOT IN IDEEA DE MATCHING, SERVERUL TREBUIE SA STIE CA SA CONECTAT MicroRTS SAU CA SA CONECTAT AGENTII. DECI CLIENTUL TREBUIE SA SPUNA SERVERULUI DACA ESTE MicroRTS sau Agentii.
+
+- ALTA IDEE BUNA: Fiecare instanta trebuie sa fie identificata unic prin ceva, probabil printr-un ID unic. DECI AM 2 id-uri unice:
+  -> ID-ul unic de client = identifica unic acel client
+  -> ID-ul de experiment = identifica unic acel experiment particular si pe baza lui stiu sa fac matching-ul dintre MicroRTS<->Agenti.
+  -> Fiecare client trebuie sa spuna ce tip este, daca este MicroRTS sau Agenti.
+
+- In loc de Agenti, cred ca trebuie gasita o noua denumire.
+
+- Toate astea trebuie sa le adaugi la notite sa nu le uiti.
+
+- CUM imi vin mie idei marete la 3 dimineata BOSS.
+
+Deci am asa:
+     - Securizarea comunicatiei bidirectionale MicroRTS <-> Manager si Manager<->Agenti folosind certificate.
+     - MicroRTS + Manager ruleaza impreuna pe acelasi server(nu neaparat cu gpu). NU E NEVOIE DE GPU. SAU ESTE NEVOIE ?????
+     - Agentii ruleaza pe alt server(Google Colab sau server propriu) OBLIGATORIU cu GPU.
+     - Fiecare Client are asociat un ID unic. ID-ul acesta unic este atribuit de manager ????? CE FAC CU ID-UL ASTA UNIC AL FIECARUI CLIENT ?? LA CE IL FOLOSESC ????? PRESUPUN CA AM NEVOIE DE EL DAR NU STIU INCA LA CE L-AS FOLOSI!!!
+     - Fiecare experiment are asociat un ID unic. Folosindu-se de acest ID se face match-ul de instanta MicroRTS <-> instanta Agenti intotdeauna, mai ales cand am multiple instante de MicroRTS si Agenti.
+     - MicroRTS e pornit intotdeauna de Manager pentru ca ruleaza ambii pe acelasi server.
+     - Agentii:
+	- Daca Agentii sunt rulati in Google Colab => sunt porniti de catre Manager prin google colab cli.
+	- Daca Agentii sunt rulati pe server propriu(obligatoriu cu GPU) => atunci ei NU SUNT PORNITI De Manager, pentru ca Managerul nu se poate conecta la serverul unde ruleaza agentii. Ei trebuie porniti manual, pe acel server propriu, cu gpu, pe care ruleaza.
